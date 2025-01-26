@@ -6,15 +6,15 @@
 [![SIM](../../actions/workflows/sim.yaml/badge.svg)](../../actions/workflows/sim.yaml)
 
 # Who
-amirmohf
+Amirmohammad Fathalian
 
 # Why
 
-<explain why you made this module>
+To learn how to use toolchains like magic vlsi, xschem, etc.
 
 # How
 
-<explain short how you made this module>
+Through the tutorial given in Advanced Integrated Circuits at NTNU by prof. Carsten Wulff
 
 
 # What
