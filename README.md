@@ -6,15 +6,15 @@
 [![SIM](../../actions/workflows/sim.yaml/badge.svg)](../../actions/workflows/sim.yaml)
 
 # Who
-amirmohf
+Amirmohammad Fathalian
 
 # Why
 
-<explain why you made this module>
+TO understand the toolchains installed including Magic vlsi, xschem, etc. .
 
 # How
 
-<explain short how you made this module>
+By following the tutorial given @ https://analogicus.com/aic2025/2025/01/01/Sky130nm-tutorial.html by Prof. Carsten Wulff
 
 
 # What
