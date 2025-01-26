@@ -10,12 +10,12 @@ Amirmohammad Fathalian
 
 # Why
 
+<<<<<<< HEAD
 TO understand the toolchains installed including Magic vlsi, xschem, etc. .
 
 # How
 
 By following the tutorial given @ https://analogicus.com/aic2025/2025/01/01/Sky130nm-tutorial.html by Prof. Carsten Wulff
-
 
 # What
 
