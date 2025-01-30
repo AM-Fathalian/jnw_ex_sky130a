@@ -92,16 +92,8 @@ box -184 -128 1336 928
 << labels >>
 flabel locali -320 1256 -232 1286 0 FreeSans 800 0 0 0 VSS
 port 2 nsew
-flabel locali 376 2734 903 2926 0 FreeSans 800 0 0 0 IBNS_20U
+flabel metal1 376 2734 903 2926 0 FreeSans 800 0 0 0 IBNS_20U
 port 4 nsew
-flabel locali -136 3548 -72 4158 0 FreeSans 800 0 0 0 IBPS_5U
+flabel metal1 -136 3548 -72 4158 0 FreeSans 800 0 0 0 IBPS_5U
 port 6 nsew
-flabel space -136 2740 -72 3348 0 FreeSans 800 0 0 0 IBPS_5U
-port 9 nsew
-flabel space 376 2280 568 2608 0 FreeSans 800 0 0 0 IBNS_20U
-port 11 nsew
-flabel metal1 738 1938 903 5330 0 FreeSans 1600 0 0 0 IBNS_20U
-port 12 nsew
-flabel space -136 2740 -72 3348 0 FreeSans 1600 0 0 0 IBNPS_5U
-port 13 nsew
 << end >>
