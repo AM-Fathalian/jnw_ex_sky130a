@@ -1,10 +1,37 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1737917025
+timestamp 1738236844
+<< error_s >>
+rect -436 1524 -356 1560
+rect -236 1524 -156 1560
+rect -436 1316 -400 1524
+rect -392 1376 -200 1524
+rect -192 1316 -156 1524
+rect -436 1280 -156 1316
+rect 716 1530 796 1566
+rect 916 1530 996 1566
+rect 716 1322 752 1530
+rect 760 1376 952 1530
+rect 960 1322 996 1530
+rect 716 1286 996 1322
+<< nsubdiff >>
+rect -400 1516 -192 1524
+rect -400 1324 -392 1516
+rect -200 1324 -192 1516
+rect -400 1316 -192 1324
+rect 752 1522 960 1530
+rect 752 1330 760 1522
+rect 952 1330 960 1522
+rect 752 1322 960 1330
+<< nsubdiffcont >>
+rect -392 1324 -200 1516
+rect 760 1330 952 1522
 << locali >>
-rect -392 1321 -200 1568
-rect 760 1321 952 1596
+rect -392 1516 -200 1568
+rect -392 1321 -200 1324
+rect 760 1522 952 1568
+rect 760 1321 952 1330
 rect -600 1288 1140 1321
 rect -600 1154 14 1288
 rect 160 1154 1140 1288
@@ -21,7 +48,7 @@ rect -142 3602 -136 3666
 rect -72 3602 -66 3666
 rect -136 2902 -72 3184
 rect -136 2076 -72 2408
-rect -2 1922 179 4448
+rect -2 1720 179 4448
 rect 376 4364 903 4556
 rect 406 3666 470 3672
 rect 406 3596 470 3602
@@ -41,7 +68,8 @@ rect -136 3666 -72 3672
 rect -72 3602 406 3666
 rect 470 3602 476 3666
 rect -136 3596 -72 3602
-use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_0 ~/pro/aicex/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A
+#use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_0 ~/pro/aicex/ip/jnw_ex_sky130a/design/JNW_ATR_SKY130A
+use JNWATR_NCH_4C5F0  JNWATR_NCH_4C5F0_0 ../JNW_ATR_SKY130A
 timestamp 1734044400
 transform 1 0 -296 0 1 1416
 box -184 -128 1336 928
@@ -64,4 +92,16 @@ box -184 -128 1336 928
 << labels >>
 flabel locali -320 1256 -232 1286 0 FreeSans 800 0 0 0 VSS
 port 2 nsew
+flabel locali 376 2734 903 2926 0 FreeSans 800 0 0 0 IBNS_20U
+port 4 nsew
+flabel locali -136 3548 -72 4158 0 FreeSans 800 0 0 0 IBPS_5U
+port 6 nsew
+flabel space -136 2740 -72 3348 0 FreeSans 800 0 0 0 IBPS_5U
+port 9 nsew
+flabel space 376 2280 568 2608 0 FreeSans 800 0 0 0 IBNS_20U
+port 11 nsew
+flabel metal1 738 1938 903 5330 0 FreeSans 1600 0 0 0 IBNS_20U
+port 12 nsew
+flabel space -136 2740 -72 3348 0 FreeSans 1600 0 0 0 IBNPS_5U
+port 13 nsew
 << end >>
